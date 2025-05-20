@@ -1,0 +1,75 @@
+    1  gcloud
+    2  snap install google-cloud-cli --classic
+    3  sudo snap install google-cloud-cli --classic
+    4  python
+    5  cat
+    6  uname -a
+    7  curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-linux-x86_64.tar.gz
+    8  tar -xf google-cloud-cli-linux-x86_64.tar.gz
+    9  ./google-cloud-sdk/install.sh
+   10  curl http://localhost:9090/api/generate -d '{
+  "model": "gemma3:4b",
+  "prompt": "Why is the sky blue?"
+}'
+   11  nslookup host.docker.internal
+   12  docker ps -a
+   13  docker exec -it n8n sh
+   14  docker inspect
+   15  ip route get 1
+   16  docker exec -it n8n sh
+   17  nc
+   18  apt update
+   19  sudo apt update
+   20  iptables
+   21  sudo iptables -t nat -A PREROUTING -p tcp -d 0.0.0.0 --dport <port> -j DNAT --to-destination 127.0.0.1:<port>
+   22  sudo iptables -t nat -A PREROUTING -p tcp -d 0.0.0.0 --dport 8080 -j DNAT --to-destination 127.0.0.1:9090
+   23  history 
+   24  history > foo.txt
+    1  gcloud
+    2  snap install google-cloud-cli --classic
+    3  sudo snap install google-cloud-cli --classic
+    4  python
+    5  cat
+    6  uname -a
+    7  curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-linux-x86_64.tar.gz
+    8  tar -xf google-cloud-cli-linux-x86_64.tar.gz
+    9  ./google-cloud-sdk/install.sh
+   10  curl http://localhost:9090/api/generate -d '{
+  "model": "gemma3:4b",
+  "prompt": "Why is the sky blue?"
+}'
+   11  nslookup host.docker.internal
+   12  docker ps -a
+   13  docker exec -it n8n sh
+   14  docker inspect
+   15  ip route get 1
+   16  docker exec -it n8n sh
+   17  nc
+   18  apt update
+   19  sudo apt update
+   20  iptables
+   21  sudo iptables -t nat -A PREROUTING -p tcp -d 0.0.0.0 --dport <port> -j DNAT --to-destination 127.0.0.1:<port>
+   22  sudo iptables -t nat -A PREROUTING -p tcp -d 0.0.0.0 --dport 8080 -j DNAT --to-destination 127.0.0.1:9090
+   23  history 
+   24  history > foo.txt
+   25  history
+   26  curl http://0.0.0.0:8080/api/generate -d '{
+  "model": "gemma3:4b",
+  "prompt": "Why is the sky blue?"
+}'
+   27  sudo iptables -t nat -A PREROUTING -p tcp -d 0.0.0.0 --dport 8080 -j DNAT --to-destination 127.0.0.1:9090
+   28  curl http://0.0.0.0:8080/api/generate -d '{
+  "model": "gemma3:4b",
+  "prompt": "Why is the sky blue?"
+}'
+   29  nc
+   30  apt install nc
+   31  sudo apt install nc
+   32  sudo apt install netcat
+   33  which nc
+   34  nc -l 0.0.0.0:8080 | nc localhost:9090
+   35  mkfifo svr1_to_svr2
+   36  ncat -vk -l 8080 < svr1_to_svr2 | ncat 127.0.0.1 9090 > svr1_to_svr2
+   37  nc -vk -l 8080 < svr1_to_svr2 | nc 127.0.0.1 9090 > svr1_to_svr2
+   38  history
+   39  history >> foo.txt 
